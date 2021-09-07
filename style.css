@@ -1,0 +1,97 @@
+body{
+    font-family: Bungee;
+    text-align:center;
+}
+th1,th2,th3{
+    color: #7944e6;
+    font-size: 20px;
+    line-height: 2;
+}
+.foodtruck-section{
+    background-color:#ff00ff;
+    text-align: center;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+.nav{
+    color:#7944e6;
+    text-decoration: none;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: auto;
+}
+.div-section1,.div-section2,.div-section3{
+        border: 3px solid;
+        color:#7944e6;
+        width:50%;
+        margin:auto;
+        margin-bottom: 50px;
+        align-items: center;
+        height: 800px;
+        margin-right: 50px;
+        margin-left: 50px;
+}
+
+
+p{
+    font-size: 20px;
+    text-transform:uppercase;
+    text-align: left;
+    font-weight: bolder;
+}
+.img2{
+    width: 100%; 
+    position: relative;
+    text-align: center;
+}
+.img3,.img4,.img5{
+    width: 50%; 
+    position:relative;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    padding: 32px;
+}
+.about{
+    text-align: left;
+    font-size: 25px;
+}
+.option{
+    color:black;
+    font-size: 40px;
+    font-weight: bolder;
+}
+a:hover{
+    color: #10fdff;
+}
+
+@media screen and (min-width: 768px) { 
+    .container {
+        display: flex; 
+        flex-direction: row;
+        }
+        .side-by-side-container{
+            display: flex;
+        }
+        .foodtruck-section { 
+            display: flex; 
+            align-items: center;
+        }
+        .about-section{
+            display: flex;
+            flex-direction: column;
+            }
+        .about{
+            font-size: 20px;
+        }
+        .side-by-side-item{
+            width: 50%;
+        }
+        .white-section{
+            width: 100%;
+            height: 20px;
+        }
+        
+        
+}
