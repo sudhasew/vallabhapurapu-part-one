@@ -2,10 +2,33 @@ body{
     font-family: Bungee;
     text-align:center;
 }
-th1,th2,th3{
-    color: #7944e6;
-    font-size: 20px;
-    line-height: 2;
+h1{
+	display: block;
+	margin-top: auto;
+}
+.logo_container{
+	display: table;
+	float: left;
+	vertical-align: middle;
+}
+.navigation{
+	float: right;
+	height: 100%;
+}
+.navigation a{
+	height: 100%;
+	display: table;
+	float: left;
+	padding: 0px 20px;
+}
+.navigation a li{
+	display: table-cell;
+	vertical-align: middle;
+	height: 100%;
+	font-family: Bungee;
+	font-size: 25px;
+	color:#7944e6;
+	margin-bottom:100%; 
 }
 .foodtruck-section{
     background-color:#ff00ff;
@@ -91,6 +114,10 @@ a:hover{
         .white-section{
             width: 100%;
             height: 20px;
+        }
+        .img2{
+            margin-top: 10%;
+            margin-bottom: .1%;
         }
         
         
