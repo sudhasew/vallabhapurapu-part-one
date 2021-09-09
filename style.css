@@ -5,11 +5,12 @@ body{
 }
 h1{
 	display: block;
-	margin-top: auto;
+	margin-top: auto 10px;
 }
 .logo_ccc{
     float: left;
     background-color: white;
+    vertical-align: top;
 }
 .logo_container{
 	display: table;
@@ -31,9 +32,9 @@ h1{
 }
 .navigation a li{
 	display: table-cell;
-	vertical-align: middle;
+	vertical-align:text-bottom;
 	height: 100%;
-	font-size: 25px;
+	font-size: 30px;
 	color:#7944e6;
 	margin-bottom:100%;
     background-color: white; 
@@ -47,6 +48,9 @@ h1{
 .side-by-side-item
 {
     background-color:white;
+    margin-top: .1%;
+    margin-bottom: 0px;
+    vertical-align: middle;
 }
 .image-about
 {
@@ -80,6 +84,8 @@ h1{
 }
 .paragraph{
     background-color: #ff00ff;
+    padding-left: 15px;
+    font-family: Bungee;
 }
 p{
     font-size: 20px;
@@ -106,6 +112,7 @@ p{
     text-align: left;
     font-size: 25px;
     background-color: #ff00ff;
+    padding-left: 15px;
 }
 .option{
     color:black;
@@ -130,6 +137,7 @@ div.img-about-section{
     .container {
         display: flex; 
         flex-direction: row;
+        padding-left: 10px;
         }
         .side-by-side-item{
             width: 50%;
@@ -140,9 +148,10 @@ div.img-about-section{
         }
         .img2{
             margin-top: 10%;
+            margin-bottom: 5%;
         }
         .foodtruck-section { 
-            display: flex; 
+            display:flex; 
             align-items: center;
         }
         .about-section{
@@ -163,5 +172,6 @@ div.img-about-section{
        div.img-about-section{
         background-color: #ff00ff;
        }
+
         
     }
