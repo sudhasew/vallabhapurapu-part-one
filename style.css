@@ -1,6 +1,7 @@
 body{
     font-family: Bungee;
     text-align:center;
+    background-color: white;
 }
 h1{
 	display: block;
@@ -8,38 +9,48 @@ h1{
 }
 .logo_ccc{
     float: left;
+    background-color: white;
 }
 .logo_container{
 	display: table;
 	float: left;
 	vertical-align: middle;
+    background-color: white;
 }
 .navigation{
 	float: right;
 	height: 100%;
+    background-color: white;
 }
 .navigation a{
 	height: 100%;
 	display: table;
 	float: left;
 	padding: 0px 20px;
+    background-color: white;
 }
 .navigation a li{
 	display: table-cell;
 	vertical-align: middle;
 	height: 100%;
-	font-family: Bungee;
 	font-size: 25px;
 	color:#7944e6;
-	margin-bottom:100%; 
+	margin-bottom:100%;
+    background-color: white; 
 }
 .foodtruck-section{
     background-color:#ff00ff;
     text-align: center;
     width: 98% ;
-    padding-left: 1%;
-    padding-right: 1%;
     
+}
+.side-by-side-item
+{
+    background-color:white;
+}
+.image-about
+{
+    background-color:white;
 }
 .nav{
     color:#7944e6;
@@ -59,19 +70,29 @@ h1{
         height: 800px;
         margin-right: 50px;
         margin-left: 50px;
+        background-color: white;
 }
-
-
+.container{
+    background-color: white;
+}
+.white-section{
+    background-color: white;
+}
+.paragraph{
+    background-color: #ff00ff;
+}
 p{
     font-size: 20px;
     text-transform:uppercase;
     text-align: left;
     font-weight: bolder;
+    background-color: #ff00ff;
 }
 .img2{
     width: 100%; 
     position: relative;
     text-align: center;
+    background-color:#ff00ff;
 }
 .img3,.img4,.img5{
     width: 50%; 
@@ -84,6 +105,7 @@ p{
 .about{
     text-align: left;
     font-size: 25px;
+    background-color: #ff00ff;
 }
 .option{
     color:black;
@@ -93,26 +115,21 @@ p{
 a:hover{
     color: #10fdff;
 }
+div.about-section{
+    background-color: #ff00ff;
+}
+div.about-section.side-by-side-item h1{
+    background-color: #ff00ff;
+}
+div.img-about-section{
+    background-color: white;
+}
 
 
 @media screen and (min-width: 768px) { 
     .container {
         display: flex; 
         flex-direction: row;
-        }
-        .side-by-side-container{
-            display: flex;
-        }
-        .foodtruck-section { 
-            display: flex; 
-            align-items: center;
-        }
-        .about-section{
-            display: flex;
-            flex-direction: column;
-            }
-        .about{
-            font-size: 20px;
         }
         .side-by-side-item{
             width: 50%;
@@ -123,6 +140,28 @@ a:hover{
         }
         .img2{
             margin-top: 10%;
-            margin-bottom: .1%;
         }
-}
+        .foodtruck-section { 
+            display: flex; 
+            align-items: center;
+        }
+        .about-section{
+            display: flex;
+            flex-direction: column;
+            background-color: #ff00ff;
+            }
+        .about{
+            font-size: 20px;
+        }
+        .paragraph{
+            background-color: #ff00ff;
+        }
+        .image-about
+       {
+            background-color:white;
+       }
+       div.img-about-section{
+        background-color: #ff00ff;
+       }
+        
+    }
