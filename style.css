@@ -6,6 +6,9 @@ h1{
 	display: block;
 	margin-top: auto;
 }
+.logo_ccc{
+    float: left;
+}
 .logo_container{
 	display: table;
 	float: left;
@@ -33,8 +36,10 @@ h1{
 .foodtruck-section{
     background-color:#ff00ff;
     text-align: center;
+    width: 98% ;
     padding-left: 1%;
     padding-right: 1%;
+    
 }
 .nav{
     color:#7944e6;
@@ -89,6 +94,7 @@ a:hover{
     color: #10fdff;
 }
 
+
 @media screen and (min-width: 768px) { 
     .container {
         display: flex; 
@@ -119,6 +125,4 @@ a:hover{
             margin-top: 10%;
             margin-bottom: .1%;
         }
-        
-        
 }
