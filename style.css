@@ -10,16 +10,17 @@ h1{
 .logo_ccc{
     float: left;
     background-color: white;
-    vertical-align: top;
+    vertical-align:middle;
 }
 .logo_container{
 	display: table;
 	float: left;
-	vertical-align: middle;
+	vertical-align:middle;
     background-color: white;
 }
 .navigation{
 	float: right;
+    vertical-align: text-bottom;
 	height: 100%;
     background-color: white;
 }
@@ -42,8 +43,7 @@ h1{
 .foodtruck-section{
     background-color:#ff00ff;
     text-align: center;
-    width: 98% ;
-    
+    width: 100%;
 }
 .side-by-side-item
 {
@@ -55,23 +55,24 @@ h1{
 .image-about
 {
     background-color:white;
+    width: 50%;
 }
 .nav{
     color:#7944e6;
     text-decoration: none;
     font-size: 40px;
     font-weight: bold;
-    text-align: center;
+    text-align:justify;
     margin-bottom: auto;
 }
 .div-section1,.div-section2,.div-section3{
         border: 3px solid;
         color:#7944e6;
-        width:50%;
+        width:65%;
         margin:auto;
         margin-bottom: 50px;
         align-items: center;
-        height: 800px;
+        height: 600px;
         margin-right: 50px;
         margin-left: 50px;
         background-color: white;
@@ -85,8 +86,9 @@ h1{
 }
 .paragraph{
     background-color: #ff00ff;
-    padding-left: 15px;
+    padding-left: 10px;
     font-family: Bungee;
+
 }
 p{
     font-size: 20px;
@@ -94,12 +96,16 @@ p{
     text-align: left;
     font-weight: bolder;
     background-color: #ff00ff;
+    padding-left: 10px;
+    margin-top: 5%;
 }
 .img2{
-    width: 100%; 
-    position: relative;
-    text-align: center;
+    width:100%; 
+    position:relative;
+    vertical-align: middle;
     background-color:#ff00ff;
+    top:20px;
+    height: 150px;
 }
 .img3,.img4,.img5{
     width: 50%; 
@@ -113,7 +119,7 @@ p{
     text-align: left;
     font-size: 25px;
     background-color: #ff00ff;
-    padding-left: 15px;
+    padding-left: 20px;
 }
 .option{
     color:black;
@@ -125,6 +131,7 @@ a:hover{
 }
 div.about-section{
     background-color: #ff00ff;
+    vertical-align: bottom;
 }
 div.about-section.side-by-side-item h1{
     background-color: #ff00ff;
@@ -150,6 +157,9 @@ div.img-about-section{
         .img2{
             margin-top: 10%;
             margin-bottom: 5%;
+            top:20px;
+            height: 200px;
+            width: 550px;
         }
         .foodtruck-section { 
             display:flex; 
